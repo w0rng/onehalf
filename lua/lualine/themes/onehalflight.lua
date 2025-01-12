@@ -1,4 +1,4 @@
-local C = require('onehalf.colors.onehalflight')
+local C = require("onehalf.colors.light")
 
 local onehalflight = {}
 
@@ -32,7 +32,6 @@ onehalflight.terminal = {
 	a = { bg = C.red, fg = C.bg, gui = "bold" },
 	b = { bg = C.black, fg = C.red },
 }
-
 
 onehalflight.inactive = {
 	a = { bg = C.bg, fg = C.blue },
